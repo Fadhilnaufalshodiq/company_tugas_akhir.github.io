@@ -1,0 +1,261 @@
+.carousel-img {
+    max-height: 100vh;
+}
+
+.carousel-caption {
+    border-top: 10px solid #07bf07;
+    background-color: #00000094;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.primary {
+   color: #07bf07;
+}
+
+.active {
+    color: #07bf07 !important;
+}
+
+.title-container{
+    position: relative;
+    padding-bottom: 40px;
+
+}
+
+.title-container h2::after {
+    content: "";
+    position: absolute;
+    display: black;
+    width: 50px;
+    height: 3px;
+    background-color: #07bf07;
+    bottom: 0;
+    left: calc(50% - 25px);
+    margin-bottom: 20px;
+}
+
+.about-us-title {
+    font-size: 50px;
+}
+
+.about-us-subtitle {
+    font-size: 28px;
+}
+
+.card-icon {
+    transition: 0.5s ;
+}
+
+.card-icon:hover {
+    color: #07bf07;
+}
+
+.mansory-sizer,
+.mansory-item {
+    width: 30%;
+}
+
+.brand-image {
+    width: 50%;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: 0.5;
+}
+
+.brand-image:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+a {
+    color: white;
+}
+
+.btn-subscribe,
+.btn-to-top {
+    background: #07bf07;
+}
+
+.btn-to-top {
+    display: inline;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.bg-darker{
+    background: #111;
+}
+
+.portfolio-filters li {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.portfolio-filters .filter-active,
+.breadcumbs {
+ background: #07bf07;
+}
+
+.breadcumbs {
+    margin-top: 55px;
+}
+
+.breadcumbs li + li::before{
+    display: inline-block;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    content:"/";
+}
+
+.card-img-top {
+height: 400px;
+object-fit: cover;
+}
+
+.img-testimonial {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+/* assets/css/style.css */
+
+/* Gaya Kartu Paket */
+.card {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.card-body {
+    background-color: #f9f9f9;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+/* Section Background */
+.services {
+    background-color: #f9f9f9; /* Warna latar lembut */
+}
+
+/* Section Title Styling */
+.services .title-container h2 {
+    color: #28a745; /* Warna hijau */
+    font-size: 2.5rem; /* Ukuran besar */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Section Description Styling */
+.services p {
+    font-size: 1.2rem; /* Ukuran font deskripsi */
+    color: #6c757d; /* Warna teks abu-abu */
+    line-height: 1.6;
+}
+
+/* Card Styling */
+.services .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px; /* Membuat sudut kartu lebih lembut */
+}
+
+.services .card:hover {
+    transform: translateY(-10px); /* Efek melayang */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15); /* Bayangan tambahan */
+}
+
+/* Card Icon Styling */
+.services .card-icon {
+    margin-bottom: 20px;
+}
+
+.services .card-icon img {
+    width: 100px; /* Ukuran gambar */
+    height: 100px; /* Pastikan proporsional */
+    object-fit: cover; /* Hindari distorsi gambar */
+    border-radius: 50%; /* Bentuk lingkaran */
+    background: #e6f9ea; /* Latar belakang hijau lembut */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+/* Card Title Styling */
+.services .card-title {
+    font-size: 1.4rem; /* Ukuran lebih besar */
+    color: #333; /* Warna teks utama */
+    font-weight: 700;
+}
+
+/* Card Description Styling */
+.services .card-description {
+    font-size: 1rem; /* Ukuran font deskripsi */
+    color: #6c757d; /* Warna abu-abu */
+    line-height: 1.5;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .services .card {
+        margin-bottom: 20px; /* Ruang antar kartu */
+    }
+
+    .services .card-title {
+        font-size: 1.2rem; /* Ukuran font lebih kecil */
+    }
+
+    .services .card-description {
+        font-size: 0.9rem; /* Ukuran font deskripsi lebih kecil */
+    }
+}
+
+
+
+/* AOS Custom */
+[data-aos="fade-up"] {
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.btn-submit {
+    background: #07bf07;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .mansory-sizer,
+    .mansory-item {
+    width: 40%;
+    }
+}
+@media (max-width: 576px) {
+    .mansory-sizer,
+    .mansory-item {
+    width: 100%;
+    }
+}
